@@ -179,7 +179,6 @@ img {
 
 .friends {
 	width: 45%;
-
 	padding: 0 30px 30px 30px;
 }
 
@@ -309,6 +308,24 @@ label {
 		flex-direction: column;
 	}
 
+	.img {
+		width: 300px;
+	}
+
+	.card {
+		width: 300px;
+		height: 350px;
+		border-radius: 20px;
+		margin-top: 10px 20px;
+		overflow: hidden;
+		object-fit: cover;
+		background-color: grey;
+	}
+
+	.card:hover {
+		transform: none;
+	}
+
 	.friends {
 		width: 250px;
 		margin: 3rem auto;
@@ -336,7 +353,7 @@ label {
 	}
 
 	#portfolio {
-		width: 500px;
+		width: 450px;
 		margin: auto;
 	}
 

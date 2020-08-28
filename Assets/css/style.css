@@ -358,7 +358,7 @@ label {
 	}
 
 	#portfolio {
-		width: 450px;
+		width: inherit;
 		margin: auto;
 	}
 
